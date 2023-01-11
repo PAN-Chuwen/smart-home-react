@@ -1,11 +1,13 @@
-import Switch from './Switch'
-import React from 'react'
+import Switch from "./Switch";
+import React from "react";
+import IntensityBlock from "./IntensityBlock";
 
 export default function Fan() {
   return (
     <div>
-        Fan
-        <Switch />
+      Fan
+      <Switch />
+      <IntensityBlock />
     </div>
-  )
+  );
 }
