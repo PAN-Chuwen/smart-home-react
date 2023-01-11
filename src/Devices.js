@@ -3,6 +3,7 @@ import Fan from './Fan'
 import Lights from './Lights'
 import Cleaner from './Cleaner'
 import AirConditioner from './AirConditioner'
+import TemperatureBlock from './TemperatureBlock'
 
 export default function Devices() {
   return (
@@ -11,6 +12,7 @@ export default function Devices() {
         <Lights></Lights>
         <Cleaner></Cleaner>
         <AirConditioner></AirConditioner>
+        <TemperatureBlock></TemperatureBlock>
 
     </div>
   )
