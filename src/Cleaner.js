@@ -1,7 +1,9 @@
 import React from 'react'
+import './Structure.css'
+
 
 export default function Cleaner() {
   return (
-    <div>Cleaner</div>
+    <div className='deviceBox'>Cleaner</div>
   )
 }

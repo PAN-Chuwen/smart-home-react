@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import "./Structure.css"
+import "./TemperatureBlock.css"
 
 export default function TemperatureBlock() {
   const [temperature, setTemperature] = useState(20);
@@ -8,13 +10,13 @@ export default function TemperatureBlock() {
     else if (operator === "+") setTemperature(temperature + 1);
   }
   return (
-    <div>
+    <div className="temperatureBox">
       Temperature
       <ArithmeticButton
         operator="-"
         onArithBtnClick={() => handleArithOp("-")}
       />
-      <div className="temperatureNumBlock">{temperature}°C</div>
+      <div className="temperatureNumBox">{temperature}°C</div>
       <ArithmeticButton
         operator="+"
         onArithBtnClick={() => handleArithOp("+")}

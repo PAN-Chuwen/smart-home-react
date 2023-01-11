@@ -1,7 +1,12 @@
-import React from 'react'
+import React from "react";
+import TemperatureBlock from "./TemperatureBlock";
+import "./Structure.css"
 
 export default function AirConditioner() {
   return (
-    <div>AirConditioner</div>
-  )
+    <div className="deviceBox">
+      AirConditioner
+      <TemperatureBlock></TemperatureBlock>
+    </div>
+  );
 }

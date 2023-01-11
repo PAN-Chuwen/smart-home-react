@@ -1,10 +1,12 @@
 import Switch from "./Switch";
 import React from "react";
 import IntensityBlock from "./IntensityBlock";
+import './Structure.css'
+
 
 export default function Fan() {
   return (
-    <div>
+    <div className="deviceBox">
       Fan
       <Switch />
       <IntensityBlock />

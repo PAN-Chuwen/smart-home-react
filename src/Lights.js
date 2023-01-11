@@ -1,7 +1,9 @@
 import React from 'react'
+import './Structure.css'
+
 
 export default function Lights() {
   return (
-    <div>Lights</div>
+    <div className='deviceBox'>Lights</div>
   )
 }
