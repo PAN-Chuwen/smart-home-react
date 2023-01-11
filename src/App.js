@@ -1,10 +1,14 @@
 
 import './App.css';
+import Devices from './Devices';
+import TopBar from './TopBar';
 
 function App() {
   return (
     <>
-    shit happens
+      <TopBar></TopBar>
+      ---------------
+      <Devices></Devices>
     </>
   );
 }
