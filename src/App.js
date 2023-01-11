@@ -1,13 +1,12 @@
 
 import './App.css';
 import Devices from './Devices';
-import TopBar from './TopBar';
+import Header from './Header';
 
 function App() {
   return (
     <>
-      <TopBar></TopBar>
-      ---------------
+      <Header></Header>
       <Devices></Devices>
     </>
   );

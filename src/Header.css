@@ -1,0 +1,46 @@
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(24, 24, 24, 0);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(77, 77, 77, 0.211);
+}
+
+.main-header {
+    background-color: rgba(255, 255, 255, 0.211);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.projectName {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
