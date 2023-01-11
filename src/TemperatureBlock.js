@@ -11,7 +11,6 @@ export default function TemperatureBlock() {
   }
   return (
     <div className="temperatureBox">
-      Temperature
       <ArithmeticButton
         operator="-"
         onArithBtnClick={() => handleArithOp("-")}

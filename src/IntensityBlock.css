@@ -1,5 +1,5 @@
 .intensityButton {
-    color:rgb(126, 192, 192);
+  color:rgb(126, 192, 192);
   font-size: 30px;
   font-weight: bold;
   padding: 10px 30px;
@@ -8,4 +8,8 @@
   border-radius: 10px;
   margin: 10px 10px;
   cursor: pointer;
+}
+
+.intensityButton:hover {
+  background-color: rgba(128, 128, 128, 0.543);
 }

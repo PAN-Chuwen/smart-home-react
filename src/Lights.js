@@ -1,9 +1,26 @@
-import React from 'react'
-import './Structure.css'
+import Switch from "./Switch";
+import React from "react";
+import "./Structure.css";
+
 
 
 export default function Lights() {
   return (
-    <div className='deviceBox'>Lights</div>
-  )
+    <div className="deviceBox">
+      <div className="titleBox">
+        <h1>Lights</h1>
+        <Switch />
+      </div>
+      <div className="controlBlock">
+      <div className="titleBox">
+        <h2>Lamp</h2>
+        <Switch />
+      </div>
+      <div className="titleBox">
+        <h2>Spot Light</h2>
+        <Switch />
+      </div>
+      </div>
+    </div>
+  );
 }

@@ -1,12 +1,20 @@
 import React from "react";
+import Switch from "./Switch";
 import TemperatureBlock from "./TemperatureBlock";
 import "./Structure.css"
+import "./Switch.css"
 
 export default function AirConditioner() {
   return (
     <div className="deviceBox">
-      AirConditioner
-      <TemperatureBlock></TemperatureBlock>
+      <div className="titleBox">
+        <h1>Air Conditioner</h1>
+        <Switch />
+      </div>
+      <div className="controlBox">
+        <h2>Temperature</h2>
+        <TemperatureBlock />
+      </div>
     </div>
   );
 }

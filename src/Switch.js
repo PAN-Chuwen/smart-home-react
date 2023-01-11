@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Switch.css"
+import "./Structure.css"
 
 
 export default function Switch() {
