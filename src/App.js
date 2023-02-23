@@ -2,12 +2,12 @@
 import './App.css';
 import Devices from './Devices';
 import Header from './Header';
+import Login from './Login';
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Devices></Devices>
+      <Login></Login>
     </>
   );
 }
