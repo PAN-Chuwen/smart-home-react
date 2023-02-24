@@ -1,0 +1,32 @@
+.devices {
+    margin-left: 100px;
+    margin-right: 100px;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    gap: 10px;
+  }
+  
+  .deviceBox {
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .titleBox {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .controlBox {
+    padding: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+  }

@@ -1,13 +1,13 @@
-import React from "react";
-import { useState } from "react";
-import "./Structure.css"
+import React from "react"
+import { useState } from "react"
+import "./Style.css"
 import "./TemperatureBlock.css"
 
 export default function TemperatureBlock() {
-  const [temperature, setTemperature] = useState(20);
+  const [temperature, setTemperature] = useState(20)
   function handleArithOp(operator) {
-    if (operator === "-") setTemperature(temperature - 1);
-    else if (operator === "+") setTemperature(temperature + 1);
+    if (operator === "-") setTemperature(temperature - 1)
+    else if (operator === "+") setTemperature(temperature + 1)
   }
   return (
     <div className="temperatureBox">
@@ -21,9 +21,9 @@ export default function TemperatureBlock() {
         onArithBtnClick={() => handleArithOp("+")}
       />
     </div>
-  );
+  )
 }
 
 function ArithmeticButton({ operator, onArithBtnClick }) {
-  return <button onClick={onArithBtnClick}>{operator}</button>;
+  return <button onClick={onArithBtnClick}>{operator}</button>
 }

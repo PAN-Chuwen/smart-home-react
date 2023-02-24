@@ -1,8 +1,7 @@
-import Switch from "./Switch";
-import React from "react";
-import IntensityBlock from "./IntensityBlock";
-import "./Structure.css";
-
+import Switch from "./Switch"
+import React from "react"
+import IntensityBlock from "./IntensityBlock"
+import "./Style.css"
 
 export default function Cleaner() {
   return (
@@ -16,5 +15,5 @@ export default function Cleaner() {
         <IntensityBlock />
       </div>
     </div>
-  );
+  )
 }

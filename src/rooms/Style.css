@@ -1,0 +1,32 @@
+
+
+.rooms {
+  margin-left: 100px;
+  margin-right: 100px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(auto, 200px);
+  gap: 10px;
+}
+
+.roomBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.room-icon {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: filter 0.2s ease-in-out;
+}
+
+.room-icon:hover {
+  filter: grayscale(100%) contrast(150%) brightness(90%);
+  cursor: pointer;
+}

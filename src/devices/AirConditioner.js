@@ -1,7 +1,7 @@
-import React from "react";
-import Switch from "./Switch";
-import TemperatureBlock from "./TemperatureBlock";
-import "./Structure.css"
+import React from "react"
+import Switch from "./Switch"
+import TemperatureBlock from "./TemperatureBlock"
+import "./Style.css"
 import "./Switch.css"
 
 export default function AirConditioner() {
@@ -16,5 +16,5 @@ export default function AirConditioner() {
         <TemperatureBlock />
       </div>
     </div>
-  );
+  )
 }

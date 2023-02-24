@@ -1,7 +1,7 @@
-import Switch from "./Switch";
-import React from "react";
-import IntensityBlock from "./IntensityBlock";
-import "./Structure.css";
+import Switch from "./Switch"
+import React from "react"
+import IntensityBlock from "./IntensityBlock"
+import "./Style.css"
 
 export default function Fan() {
   return (
@@ -15,5 +15,5 @@ export default function Fan() {
         <IntensityBlock />
       </div>
     </div>
-  );
+  )
 }

@@ -16,6 +16,10 @@ If something goes wrong, check your node version ( use `node -v`) to make sure y
 
 ## Todos
 
+- [ ] Add devices counts on rooms index page (e.g. 3 / 4 devices ON), might need to learn context in React or simply use useState hook on top level
+
+- [ ] Add login page(UI codes completed) with firebase authentication
+
 - [ ] zoom-in/out friendly css
 
 - [ ] add more rooms
