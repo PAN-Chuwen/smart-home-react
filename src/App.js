@@ -7,6 +7,7 @@ import LivingRoom from "./rooms/LivingRoom"
 import Kitchen from "./rooms/Kitchen"
 import Office from "./rooms/Office"
 import FittingRoom from "./rooms/FittingRoom"
+import Login from "./Login"
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
 
       {/* routes */}
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/" element={<Login></Login>}></Route>
         <Route path="/rooms" element={<Header></Header>}>
           <Route index element={<Rooms></Rooms>}></Route>
           <Route path="livingRoom" element={<LivingRoom></LivingRoom>}></Route>

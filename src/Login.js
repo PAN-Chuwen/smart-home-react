@@ -1,16 +1,18 @@
 import React, { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import "./Login.css"
 
-export default function Login(props) {
+export default function Login() {
   const [username, setUsername] = useState("")
   const [password, setPassword] = useState("")
+  const navigate = useNavigate()
 
   const handleSubmit = (event) => {
     event.preventDefault()
     console.log(`Username: ${username}, Password: ${password}`)
     // TODO: add authentication using firebase
     if (username === "admin" && password === "admin") {
-      // props.history.push('./Home')
+      navigate("/rooms")
     } else {
       alert("invalid username or password")
     }
