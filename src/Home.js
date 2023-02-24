@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react"
+import Header from "./Header"
+import Rooms from "./Rooms"
 
 export default function Home() {
   return (
     <>
-        HOME
-        {/* <Header></Header>
-        <Devices></Devices> */}
+      <Header></Header>
+      <Rooms></Rooms>
+      {/* <Devices></Devices> */}
     </>
-    
   )
 }

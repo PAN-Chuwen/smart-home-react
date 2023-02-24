@@ -1,13 +1,11 @@
 .devices {
-  margin-left:100px;
-  margin-right:100px;
-
+  margin-left: 100px;
+  margin-right: 100px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 400px 400px;
   gap: 10px;
-  
 }
 
 .deviceBox {
@@ -27,10 +25,18 @@
   padding: 5px;
 }
 
-
 .controlBox {
   padding: 10px;
   border: 0.5px solid rgba(0, 0, 0, 0.18);
   border-radius: 10px;
 }
 
+.rooms {
+  margin-left: 100px;
+  margin-right: 100px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(auto, 400px);
+  gap: 10px;
+}
