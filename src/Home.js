@@ -5,9 +5,7 @@ import Rooms from "./Rooms"
 export default function Home() {
   return (
     <>
-      <Header></Header>
-      <Rooms></Rooms>
-      {/* <Devices></Devices> */}
+      Home
     </>
   )
 }

@@ -1,5 +1,6 @@
-import React from "react";
+import React from "react"
 import "./Header.css"
+import { Link, Outlet } from "react-router-dom"
 
 export default function Header() {
   return (
@@ -7,10 +8,7 @@ export default function Header() {
       <nav className="nav main-nav">
         <ul>
           <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a href="rooms.html">ROOMS</a>
+            <Link to="/rooms">ROOMS</Link>
           </li>
           <li>
             <a href="https://github.com/Pancw2000?tab=repositories">GITHUB</a>
@@ -18,7 +16,7 @@ export default function Header() {
         </ul>
       </nav>
       <h1 className="projectName">SMART HOME</h1>
-      
+      <Outlet></Outlet>
     </header>
-  );
+  )
 }
