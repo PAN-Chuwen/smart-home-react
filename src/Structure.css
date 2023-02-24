@@ -50,14 +50,14 @@
 }
 
 
-.img {
+.room-icon {
   display: block;
   width: 100%;
   height: auto;
   transition: filter 0.2s ease-in-out;
 }
 
-.roomBox > img:hover {
+.room-icon:hover {
   filter: grayscale(100%) contrast(150%) brightness(90%);
   cursor: pointer;
 }

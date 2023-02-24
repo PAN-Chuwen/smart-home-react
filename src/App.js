@@ -2,7 +2,7 @@ import "./App.css"
 import { Link, Route, Routes } from "react-router-dom"
 import Rooms from "./Rooms"
 import Home from "./Home"
-import Bedroom from "./Bedroom"
+import LivingRoom from "./LivingRoom"
 import Header from "./Header"
 
 
@@ -18,7 +18,7 @@ function App() {
             <Link to="/rooms">link to rooms</Link>
           </li>
           <li>
-            <Link to="/rooms/bedroom">link to bedroom</Link>
+            <Link to="/rooms/livingRoom">link to livingRoom</Link>
           </li>
         </ul>
       </nav>
@@ -28,7 +28,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/rooms" element={<Header></Header>}>
           <Route index element={<Rooms></Rooms>}></Route>
-          <Route path="bedroom" element={<Bedroom></Bedroom>}></Route>
+          <Route path="livingroom" element={<LivingRoom></LivingRoom>}></Route>
         </Route>
       </Routes>
     </>
