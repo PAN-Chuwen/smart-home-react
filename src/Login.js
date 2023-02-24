@@ -8,9 +8,9 @@ export default function Login(props) {
   const handleSubmit = (event) => {
     event.preventDefault()
     console.log(`Username: ${username}, Password: ${password}`)
-    // TODO: add authentication using firebase, now it only supports trivial admin verification
+    // TODO: add authentication using firebase
     if (username === "admin" && password === "admin") {
-      props.history.push('./Home')
+      // props.history.push('./Home')
     } else {
       alert("invalid username or password")
     }

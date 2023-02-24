@@ -59,4 +59,5 @@
 
 .roomBox > img:hover {
   filter: grayscale(100%) contrast(150%) brightness(90%);
+  cursor: pointer;
 }
