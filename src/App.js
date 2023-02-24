@@ -12,19 +12,6 @@ import Login from "./Login"
 function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/rooms">link to rooms</Link>
-          </li>
-          <li>
-            <Link to="/rooms/livingRoom">link to livingRoom</Link>
-          </li>
-        </ul>
-      </nav>
 
       {/* routes */}
       <Routes>

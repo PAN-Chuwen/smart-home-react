@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react"
+import Devices from "../devices/Devices"
 
 export default function Office() {
-  return (
-    <div>Office</div>
-  )
+  return <Devices></Devices>
 }
