@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/smart-home-react/static/css/main.23b1d967.css",
-    "main.js": "/smart-home-react/static/js/main.f49f9f53.js",
-    "index.html": "/smart-home-react/index.html",
-    "main.23b1d967.css.map": "/smart-home-react/static/css/main.23b1d967.css.map",
-    "main.f49f9f53.js.map": "/smart-home-react/static/js/main.f49f9f53.js.map"
+    "main.css": "./static/css/main.23b1d967.css",
+    "main.js": "./static/js/main.f49f9f53.js",
+    "index.html": "./index.html",
+    "main.23b1d967.css.map": "./static/css/main.23b1d967.css.map",
+    "main.f49f9f53.js.map": "./static/js/main.f49f9f53.js.map"
   },
   "entrypoints": [
     "static/css/main.23b1d967.css",
