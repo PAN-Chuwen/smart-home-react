@@ -1,6 +1,7 @@
 # SMART-HOME
 
 This project is a simple web application created using React.
+Deployed on github.io: https://pancw2000.github.io/smart-home-react/#/rooms 
 
 ## Preview
 

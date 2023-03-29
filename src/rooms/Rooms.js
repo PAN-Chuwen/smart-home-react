@@ -2,6 +2,9 @@ import React from "react"
 import "./Style.css"
 import { Link } from "react-router-dom"
 
+const isProduction = process.env.NODE_ENV === "production"
+const imageFolder = isProduction ? "/smart-home-react/images" : "/images" 
+
 export default function Rooms() {
   return (
     <div className="rooms">
@@ -13,7 +16,7 @@ export default function Rooms() {
         <Link to="/rooms/livingRoom">
           <img
             className="room-icon"
-            src="/images/icons8-living-room-100.png"
+            src={`${imageFolder}/icons8-living-room-100.png`}
             alt="living-room"
           />
         </Link>
@@ -27,7 +30,7 @@ export default function Rooms() {
         <Link to="/rooms/kitchen">
           <img
             className="room-icon"
-            src="/images/icons8-kitchen-room-100.png"
+            src={`${imageFolder}/icons8-kitchen-room-100.png`}
             alt="kitchen"
           />
         </Link>
@@ -41,7 +44,7 @@ export default function Rooms() {
         <Link to="/rooms/fittingRoom">
           <img
             className="room-icon"
-            src="/images/icons8-fitting-room-100.png"
+            src={`${imageFolder}/icons8-fitting-room-100.png`}
             alt="fitting-room"
           />
         </Link>
@@ -55,7 +58,7 @@ export default function Rooms() {
         <Link to="/rooms/office">
           <img
             className="room-icon"
-            src="/images/icons8-office-100.png"
+            src={`${imageFolder}/icons8-office-100.png`}
             alt="office"
           />
         </Link>
